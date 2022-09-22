@@ -1,0 +1,10 @@
+docker exec -it tutorial_web_1 bash -- initialize container
+(inside container)
+python manage.py makemigrations
+
+
+
+
+
+Serialization:
+Serialization refers to the process of converting a data object (e.g., Python objects, Tensorflow models) into a format that allows us to store or transmit the data and then recreate the object when needed using the reverse process of deserialization.
